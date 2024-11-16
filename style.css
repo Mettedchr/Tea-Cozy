@@ -20,10 +20,11 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     display: flex;
-    justify-content: space-between;
+    flex-direction: flex-start;
+    justify-content: flex-end;
     align-items: flex-start;
     position: fixed;
-    flex-direction: row-reverse;
+    z-index: 1; 
 
 }
 
@@ -35,6 +36,7 @@ ul {
 header img {
     height: 50px;
     margin-left: 10px;
+    align-self: flex-start;
 }
 
 header a {
@@ -49,9 +51,7 @@ header a {
     height: 700 px;
     width: 1200px;
     position: relative;
-    margin-top: 70px;
-    background-image: url(./resources/images/img-mission-background.jpg);
-    display: flex;
+    background-image: url("./resources/images/img-mission-background.jpg");
     
 }
 
