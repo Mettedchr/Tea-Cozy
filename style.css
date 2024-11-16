@@ -1,64 +1,44 @@
 /* Universal styles */
 
-* {
-    font-family: Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
+body {
+   font-family: Helvetica, sans-serif;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
 }
 
-/* header style */
-
-.head-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
+/* Header Style */
 
 header {
     height: 69px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
     border-bottom: 1px solid seashell;
-    background-color: black;
-}
-
-.head {
     display: flex;
-    justify-content: flex-end;
-}
-
-img.logo {
-    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 ul {
-    display:flex;
+    list-style-type: none;
+    color: seashell;
+
 }
 
-/* mission section*/
+.logo {
+    
+}
+
+/* Mission Styles */
 
 .container-mission {
-    width: 1200px; 
-    height: 700px; 
+    height: 700 px;
+    width: 1200px;
+    background-image: url(./resources/images/img-mission-background.jpg);
+    margin: 10px;
 }
 
-/* tea section */
+/* Tea Styles */
 
-.container-tea {
-
-}
-
-/* location section */
-
-.container-location {
-
-}
-
-/* Footer */
-
-footer {
-
-}
+/* Location Styles */
