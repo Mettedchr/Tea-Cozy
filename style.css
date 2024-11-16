@@ -7,17 +7,22 @@ body {
    background-color: black;
    opacity: 0.9;
    text-align: center;
+
+   /* reset browsers default settings */
+   margin: 0;
+   padding: 0;
 }
 
 /* Header Style */
 
 header {
     height: 69px;
+    width: 100%;
     border-bottom: 1px solid seashell;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    position: fixed;
 }
 
 ul {
@@ -26,7 +31,14 @@ ul {
 
 }
 
-.logo {
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header a {
+    margin: 10px;
+}
     
 }
 
@@ -35,8 +47,11 @@ ul {
 .container-mission {
     height: 700 px;
     width: 1200px;
+    position: relative;
+    margin-top: 70px;
     background-image: url(./resources/images/img-mission-background.jpg);
-    margin: 10px;
+    display: flex;
+    
 }
 
 /* Tea Styles */
