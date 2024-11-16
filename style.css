@@ -23,12 +23,13 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
+    flex-direction: row-reverse;
+
 }
 
 ul {
     list-style-type: none;
     color: seashell;
-
 }
 
 header img {
