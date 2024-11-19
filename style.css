@@ -45,6 +45,8 @@ nav {
     height: 700px;
     width: 1200px;
     background-image: url("./resources/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
