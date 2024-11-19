@@ -46,16 +46,54 @@ nav {
     width: 1200px;
     background-image: url("./resources/images/img-mission-background.jpg");
     background-repeat: no-repeat;
+    margin: auto;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 } 
 
-.container-mission h2 {
-    text-align: center;
+.mission-text {
+    background-color: black;
+    width: 1200px;
 }
 
 /* Tea Styles */
 
+.container-tea {
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+
+.tea-text {
+    width: 1200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3, 
+.img4,
+.img5  {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
 /* Location Styles */
+
+.container-locations {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+
+}
+
+/* Footer Styles /*
