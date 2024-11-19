@@ -11,6 +11,7 @@ body {
    /* reset browsers default settings */
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 
 /* Header Style */
@@ -20,39 +21,37 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     display: flex;
-    flex-direction: flex-start;
-    justify-content: flex-end;
-    align-items: flex-start;
-    position: fixed;
-    z-index: 1; 
-
-}
-
-ul {
-    list-style-type: none;
-    color: seashell;
 }
 
 header img {
     height: 50px;
     margin-left: 10px;
-    align-self: flex-start;
 }
 
-header a {
-    margin: 10px;
-}
-    
+/* Nav Style */
+
+nav {
+    color: seashell;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 /* Mission Styles */
 
 .container-mission {
-    height: 700 px;
+    height: 700px;
     width: 1200px;
-    position: relative;
     background-image: url("./resources/images/img-mission-background.jpg");
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container-mission h2 {
+    text-align: center;
 }
 
 /* Tea Styles */
