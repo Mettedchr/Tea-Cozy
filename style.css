@@ -96,4 +96,9 @@ nav {
 
 }
 
-/* Footer Styles /*
+/* Footer Styles */
+
+.copyright {
+    display: flex;
+    margin-left: 20px;
+}
