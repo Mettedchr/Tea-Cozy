@@ -5,11 +5,13 @@
         <link href="./style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-      <nav>
+      <nav class="nav-links">
             <!-- LINK TO AREA ON PAGE-->
-            <a href="#Mission">Mission</a>
-            <a href="#Fetured Tea">Featured Tea</a>
-            <a href="#Locations">Locations</a>
+          <ul>
+            <li><a href="#Mission">Mission</a></li>
+            <li><a href="#Fetured Tea">Featured Tea</a></li>
+            <li class="last-nav"><a href="#Locations">Locations</a></li>
+          </ul>   
       </nav>
       <header>
         <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo" class="logo">
@@ -47,35 +49,45 @@
                 <figcaption>Bedford Bizarre Tea</figcaption>
               </figure>
         </section>
+
         <section class="container-locations">
-            <div class="downtown">
-              <h1>Locations</h1>
-              <h1>Downtown</h1>
-              <h4>384 West 4th St<br>
-                  Suite 108 <br>
-                  Portland, Maine
-              </h4>
-            </div>
-            <div class="East">
-              <h1>East Bayside</h1>
-              <h4>3433 Phisherman's Avenue <br>
-                    (Northwest Corner) <br>
-                     Portland, Maine <br>
-              </h4>
-            </div>
-            <div class="Oak">
-              <h1>Oakdale</h1>
-              <h4>515 Cresent Avenue <br>
-                  Second Floor <br>
-                  Portland, Maine
-              </h4>
-            </div>  
+              <h1 class="location">Locations</h1>
+                <div class="location-flexbox">
+                  <div class="downtown">
+                    <h3>Downtown</h3>
+                      <h4>384 West 4th St<br>
+                        <br>
+                          Suite 108 <br>
+                          <br>  
+                          Portland, Maine
+                      </h4>
+                   </div>
+                   <div class="east">
+                     <h3>East Bayside</h3>
+                       <h4>3433 Phisherman's Avenue <br>
+                        <br> 
+                           (Northwest Corner) <br>
+                        <br>   
+                            Portland, Maine <br>
+                       </h4>
+                   </div>
+                   <div class="oak">
+                     <h3>Oakdale</h3>
+                       <h4>515 Cresent Avenue <br>
+                        <br> 
+                           Second Floor <br>
+                        <br>   
+                           Portland, Maine
+                       </h4>
+                   </div>  
+                </div>
         </section>
       </main>
     </body>
     <footer>
-      <h1>The Tea Cozy</h1>
+      <h1>The Tea Cozy</h1> 
       <h5>content@theteacozy.com <br>
+        <br>
           917-555-8904 <br>
       </h5>
       <h5 class="copyright">copyright The Tea Cozy 2017</h5>

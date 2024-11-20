@@ -21,6 +21,7 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     display: flex;
+    margin-top: auto;
 }
 
 header img {
@@ -30,13 +31,23 @@ header img {
 
 /* Nav Style */
 
-nav {
-    color: seashell;
-    text-decoration: none;
+nav a {
+    color: seashell;  
+}
+
+li {
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.nav-links {
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap;
     align-items: center;
+}
+
+.last-nav {
+    margin-right: 15px;;
 }
 
 /* Mission Styles */
@@ -63,18 +74,16 @@ nav {
 
 .container-tea {
     width: 1000px;
-    height: 700px;
-    text-align: center;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;    
-    align-items: center;
+    align-content: center;
 }
 
 .tea-text {
-    width: 1200px;
-    margin: 10px;
-    text-align: center;
+    width: 1000px;
+    margin: 1px;
 }
 
 .img1,
@@ -84,7 +93,7 @@ nav {
 .img5  {
     height: 200px;
     width: 300px;
-    margin: auto;
+    margin: 5px;
 }
 
 /* Location Styles */
@@ -92,11 +101,39 @@ nav {
 .container-locations {
     height: 500px;
     width: 1200px;
+    margin: 60px auto 0;
+    background-image: url(./resources/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
 }
 
+.location {
+    margin-bottom: 15px;
+}
+
+.downtown, .east, .oak {
+    margin: auto;
+    width: 300px;
+    background-color: black;
+}
+
+.location-flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
 /* Footer Styles */
+
+footer {
+    height: 200px;
+    margin: auto;
+}
 
 .copyright {
     display: flex;
