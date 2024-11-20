@@ -73,7 +73,7 @@ li {
 /* Tea Styles */
 
 .container-tea {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +83,6 @@ li {
 
 .tea-text {
     width: 1000px;
-    margin: 1px;
 }
 
 .img1,
@@ -93,7 +92,6 @@ li {
 .img5  {
     height: 200px;
     width: 300px;
-    margin: 5px;
 }
 
 /* Location Styles */
